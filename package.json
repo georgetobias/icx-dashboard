@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "dev": "pnpm --filter icx-dashboard-frontend dev",
+    "build": "pnpm --filter icx-dashboard-frontend build",
+    "preview": "pnpm --filter icx-dashboard-frontend preview"
+  }
+}

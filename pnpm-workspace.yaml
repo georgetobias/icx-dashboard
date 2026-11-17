@@ -1,0 +1,14 @@
+packages:
+  - "frontend"
+
+verifyDepsBeforeRun: false
+
+onlyBuiltDependencies:
+  - esbuild
+
+ignoredBuiltDependencies:
+  - es5-ext
+
+allowBuilds:
+  esbuild: true
+  es5-ext: false
